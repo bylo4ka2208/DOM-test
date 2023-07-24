@@ -1,0 +1,52 @@
+* {
+    margin: 0px;
+}
+
+body {
+    background-color:azure;
+}
+
+.btn {
+    width: 30%;
+    height: 100px;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 30px;
+    border: 3px solid rgb(93, 85, 85);
+
+    font-size: 30px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: rgb(93, 85, 85);
+}
+
+.new-btn {
+    width: 30%;
+    height: 100px;
+    background-color: rgb(143, 33, 33);
+    color: aliceblue;
+    border-radius: 30px;
+    border: 3px solid rgb(27, 143, 43);
+
+    font-size: 25px;
+    transition: 0.3s;
+}
+
+.new-btn:hover {
+    background-color: rgb(76, 65, 149);
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 600px;
+}
+
+.end-text {
+    font-size: 25px;
+    color: black;
+}
